@@ -1,0 +1,25 @@
+.servicos {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.servicos-texto {
+    margin: 80px 0;
+}
+
+.servicos-texto h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 77px;
+    margin-bottom: 30px;
+    color: #BD8C3D;
+}
+
+.servicos-texto p {
+    margin-bottom: 10px;
+    width: 675px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #252A36;
+}

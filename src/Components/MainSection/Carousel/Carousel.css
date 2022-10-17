@@ -1,0 +1,70 @@
+.carouselSlider {
+    margin: 0 auto;
+
+}
+
+.carouselSlider-box {
+    height: 500px;
+    padding: 90px;
+    align-items: center;
+}
+
+.carouselSlider-titulo h1 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 86px;
+    color: #FFFFFF;
+}
+
+.carouselSlider-paragrafo p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin: 25px 0 50px 0;
+}
+
+.carouselSlider-botoes {
+    text-align: center;
+}
+
+.carouselSlider-botoes a:hover {
+    color: white;
+}
+
+.botao{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #78B251;
+    border-radius: 5px;
+    width: 166px;
+    padding: 9px 40px;
+}
+
+.falarWhatts{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+.box {
+    background-image: url('./background-1.png');
+    background-size: 100%;
+    width: 2560;
+    height: 90vh;
+}
+
+.box1 {
+    background-image: url('./home-desk-1.png');
+    background-size: 100%;
+    width: 2560;
+    height: 90vh;
+}

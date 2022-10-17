@@ -1,0 +1,36 @@
+.TYheader {
+    border-bottom: 1px solid #CFCDC9;
+}
+
+.TYheader-area {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    padding: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.TYheader-area img {
+    width: 280px;
+}
+
+.TYheader-contato {
+    border: 1px solid #CFCDC9;
+    border-radius: 5px;
+    color: #CFCDC9;
+    padding: 8px 20px;
+}
+
+.TYheader-contato a {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #CFCDC9;
+    text-decoration: none;
+}
+
+.TYheader-contato img  {
+    width: 18px;
+    margin: 0 10px 0 0;
+}

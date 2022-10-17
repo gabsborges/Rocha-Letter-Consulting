@@ -1,0 +1,95 @@
+.faleConosco {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.faleConosco-box {
+    display: flex;
+    margin: 90px 0;
+}
+
+.faleConosco-box-texto {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.faleConosco-box-texto h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    color: #BD8C3D;
+    margin-bottom: 30px;
+}
+
+.faleConosco-box-texto p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #252A36;
+}
+
+.faleConosco-form-area {
+    display: flex;
+    flex-direction: column;
+}
+
+.faleConosco img {
+    width: 600px;
+    height: 600px;
+    margin-top: 40px;
+}
+
+.faleConosco-box-texto form {
+    margin: 15px 0;
+}
+
+.faleConosco-box-texto input {
+    border: none;
+    border-bottom: 1px solid #CFCDC9;;
+    margin: 25px 0;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.faleConosco-box-texto input::placeholder {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #CFCDC9;
+}
+
+.faleConosco-form-area-checkbox {
+    display: flex;
+    margin-right: 10px;
+}
+
+.faleConosco-form-area-checkbox input {
+    margin: 8px;
+}
+
+.faleConosco-form-area-checkbox label{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #252A36;
+}
+
+.faleConosco-form-area-submit button{
+    margin-top: 25px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #78B251;
+    border-radius: 5px;
+    width: 166px;
+    padding: 9px 40px;
+}
+
+.loading-box, .error-box, .img-final {
+    display: none;
+}

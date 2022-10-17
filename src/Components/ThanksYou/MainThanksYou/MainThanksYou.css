@@ -1,0 +1,40 @@
+.TYmainSection {
+    margin: 180px;
+    width: auto;
+    height: 60vh;
+}
+
+.TYmainSection h1 {
+    width: 1150px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+    color: #BD8C3D;
+}
+
+.TYmainSection p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #252A36;
+    margin: 50px 0;
+}
+
+.botao-contato {
+    text-align: center;
+
+}
+
+.botao-contato a {
+    text-decoration: none;
+    padding: 9px 22px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #78B251;
+    border-radius: 5px;
+}
