@@ -36,17 +36,8 @@ function FaleConosco() {
                                 </div>
                             </div>
                         </div>
-                        <div className="button-bar">
-                            <button type="submit">Enviar</button>
-                        </div>
-                        <div className="loading-box">
-                            <img src="//paginas.rocks/content/images/spinner.gif" />
-                            <div>loading...</div>
-                        </div>
-                        <div className="error-box">
-                            <img src="//paginas.rocks/content/images/error-icon.png" />
-                            <div></div>
-                            <button type="button" className="btn" id="btn-error">Ok</button>
+                        <div className='faleConosco-form-area-submit'>
+                            <button className="btn" type="submit">Enviar</button>
                         </div>
                     </form>
                 </div>
