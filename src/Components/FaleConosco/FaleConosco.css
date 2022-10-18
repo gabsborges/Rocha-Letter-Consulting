@@ -88,6 +88,10 @@
     margin:15px 0 5px; 
 }
 
+.faleConosco-form-area-submit .btn:hover {
+        background: #78B251;
+}
+
 .loading-box, .error-box, .img-final {
     display: none;
 }
