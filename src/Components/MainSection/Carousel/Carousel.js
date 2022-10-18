@@ -11,7 +11,7 @@ function CarouselSlider() {
             nextIcon = { <span><img src='./next.png'/></span>}
             prevIcon = { <span><img src='./prev.png'/></span>}
             >
-                <Carousel.Item interval={1500}>
+                <Carousel.Item interval={5500}>
                 <div className='carouselSlider-box box'>
                     <div className='carouselSlider-titulo'>
                         <h1>Soluções Tributárias para o Agronegócio ao seu alcance!</h1>
@@ -25,7 +25,7 @@ function CarouselSlider() {
                     </div>
                 </div>
                 </Carousel.Item>
-                <Carousel.Item interval={500}>
+                <Carousel.Item interval={5500}>
                     <div className='carouselSlider-box box1'>
                         <div className='carouselSlider-titulo'>
                             <h1>As melhores práticas tributárias para o seu escritório alavancar seus rendimentos!</h1>

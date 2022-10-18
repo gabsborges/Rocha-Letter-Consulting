@@ -9,6 +9,10 @@
     align-items: center;
 }
 
+.carouselSlider-titulo {
+    margin: 0px 110px;
+}
+
 .carouselSlider-titulo h1 {
     text-align: center;
     font-weight: 400;
