@@ -1,3 +1,8 @@
+.header-section {
+    padding: 0 !important;
+    background-color: #252A36 !important;
+}
+
 .header {
     display: flex !important;
     align-items: center !important;

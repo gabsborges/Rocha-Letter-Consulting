@@ -15,6 +15,7 @@
     font-size: 60px;
     line-height: 86px;
     color: #FFFFFF;
+    margin-top: 10%;
 }
 
 .carouselSlider-paragrafo p {
@@ -57,14 +58,14 @@
 
 .box {
     background-image: url('./background-1.png');
-    background-size: 100%;
-    width: 2560;
-    height: 90vh;
+    background-size: 125%;
+    background-repeat: no-repeat;
+    min-height: 90vh;
 }
 
 .box1 {
     background-image: url('./home-desk-1.png');
+    background-repeat: no-repeat;
     background-size: 100%;
-    width: 2560;
-    height: 90vh;
+    min-height: 90vh;
 }

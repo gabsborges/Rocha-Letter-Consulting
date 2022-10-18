@@ -12,7 +12,7 @@ function SobreALetter() {
                     <li>+ 8,4Bi em recuperação de créditos tributários</li>
                     <li>+ 200 Colaboradores capacitados</li>
                 </ul>
-                <a href='#'>Saber mais</a>
+                <a href='#contato'>Saber mais</a>
             </div>
             <img src='/rino-martelo 1.png'/>
         </div>
