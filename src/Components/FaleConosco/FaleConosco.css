@@ -13,7 +13,6 @@
 .faleConosco-box-texto {
     display: flex;
     flex-direction: column;
-    width: 60%;
 }
 
 .faleConosco-box-texto h1 {
@@ -49,7 +48,6 @@
 .faleConosco-box-texto input {
     border: none;
     border-bottom: 1px solid #CFCDC9;;
-    margin: 25px 0;
     padding: 5px;
     font-size: 20px;
 }
@@ -70,15 +68,14 @@
     margin: 8px;
 }
 
-.faleConosco-form-area-checkbox label{
+.faleConosco-form-area-checkbox .check-texto{
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     color: #252A36;
 }
 
-.faleConosco-form-area-submit button{
-    margin-top: 25px;
+.faleConosco-form-area-submit .btn{
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
@@ -87,9 +84,14 @@
     background: #78B251;
     border-radius: 5px;
     width: 166px;
-    padding: 9px 40px;
+    padding: 10px 40px; 
+    margin:15px 0 5px; 
 }
 
 .loading-box, .error-box, .img-final {
     display: none;
+}
+
+.checkbox-list {
+    margin: 25px 0;
 }

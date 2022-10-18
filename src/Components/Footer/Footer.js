@@ -14,15 +14,15 @@ function Footer() {
                     </ul>
                 </div>
                 <div className="footer-icons">
-                    <a href="" target="blank"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="" target="blank"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="" target="blank"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="" target="blank"><i className="fa-brands fa-linkedin"></i></a>
+                    <a href="" target="blank"><i className="fa-brands fa-instagram"></i></a>
+                    <a href="" target="blank"><i className="fa-brands fa-square-facebook"></i></a>
                 </div>
             </div>
             <div className='footer-menu2'>
                 <div className='footer-dados-contatos'>
-                        <a href="https://api.whatsapp.com/send?phone=5545988221644"><i class="fa-solid fa-phone"></i>+55 (45) 98822.1644</a>
-                        <p><i class="fa-solid fa-envelope"></i>celiton.junior@letterconsulting.com.br</p>
+                        <a href="https://api.whatsapp.com/send?phone=5545988221644"><i className="fa-solid fa-phone"></i>+55 (45) 98822.1644</a>
+                        <p><i className="fa-solid fa-envelope"></i>celiton.junior@letterconsulting.com.br</p>
                     </div>
                     <img src='./alloy.png'/>
             </div>
