@@ -82,9 +82,16 @@
 
 @media (max-width: 732px){
     .header {
+        padding: 20px 0 !important;
+        margin: 0;
         flex-direction: column;
     }
+    .navbar-brand {
+        margin: 0;
+        padding: 0;
+    }
     .navbar-toggler {
+
         margin: 20px 0;
         border: 1px solid #CFCDC9;
     }

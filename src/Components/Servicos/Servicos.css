@@ -22,3 +22,15 @@
     line-height: 30px;
     color: #252A36;
 }
+
+@media (max-width: 570px) {
+    .servicos-texto {
+        margin: 36px 0;
+    }
+    .servicos-texto h1 {
+        font-size: 44px;
+    }
+    .servicos-texto p {
+        font-size: 14px;
+    }
+}
