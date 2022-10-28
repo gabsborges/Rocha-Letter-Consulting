@@ -26,6 +26,7 @@
 }
 
 .sobreALetter-box p{
+    width: 70%;
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
@@ -95,6 +96,21 @@
     }
     .sobreALetter-box ul {
         font-size: 18px;
+
     }
     
+}
+
+@media (max-width: 640px) {
+    .sobreALetter {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 550px) {
+    .sobreALetter {
+        width: 100%;
+    }
+
 }

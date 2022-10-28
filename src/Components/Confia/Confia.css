@@ -51,4 +51,7 @@
         flex-direction: column;
         align-items: center;
     }
+    .confia h1{
+        margin-bottom: 40px;
+    }
 }

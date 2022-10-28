@@ -100,6 +100,20 @@
     margin: 25px 0;
 }
 
+.llform001 > div.button-bar > button {
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #78B251;
+    border-radius: 5px;
+    width: 166px;
+    padding: 9px 40px;
+}
+
+
 
 @media (max-width: 1245px) {
     .faleConosco {
@@ -113,5 +127,14 @@
         width: 450px;
         height: auto;
         margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 570px) {
+    .faleConosco-box-texto h1 {
+        font-size: 40px;
+    }
+    .faleConosco-box-texto p {
+        font-size: 22px;
     }
 }
