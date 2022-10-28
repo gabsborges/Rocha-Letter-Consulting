@@ -8,7 +8,9 @@ import Servicos from '../Components/Servicos/Servicos';
 import SobreALetter from '../Components/SobreALetter/SobreALetter';
 import Header from '../Components/Header/Header';
 
+
 function Home() {
+ 
     return (
         <div className="home">
       <div className='main-section'>
@@ -25,6 +27,7 @@ function Home() {
       <div className='footer-section'>
         <Footer/>
       </div>
+     
         </div>
     )
 }

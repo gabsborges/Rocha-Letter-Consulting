@@ -74,3 +74,18 @@
     width: 18px;
     margin-right: 10px;
 }
+
+@media (max-width: 732px){
+    .header {
+        flex-direction: column;
+    }
+    .navbar-toggler {
+        margin: 20px 0;
+    }
+}
+
+@media (max-width: 700px){
+    .mainSection {
+        height: 60vh;
+    }
+}

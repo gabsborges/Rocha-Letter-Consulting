@@ -19,7 +19,7 @@ const images = [image1, image2, image3, image4, image5,image6, image7, image8, i
 function Confia() {
     return (
         <div className='confia'>
-            <h1>Quem confia na Letter Consulting</h1>
+            <h1>Quem confia na <br/>Letter Consulting</h1>
             <div className='confia-marcas'>
             <motion.div className='carousel-marcas' whileTap={{ cursor: 'grabbing' }}>
                     <motion.div className='inner-marcas'
