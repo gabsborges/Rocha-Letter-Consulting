@@ -104,3 +104,9 @@
         flex-direction: column;
     }
 }
+
+@media (max-width: 425px) {
+    .footer-menu li a {
+        margin-right: 40px;
+    }
+}
