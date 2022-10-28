@@ -190,7 +190,7 @@
     }
 }
 
-@media (max-width: 397px){
+@media (max-width: 409px){
 .carousel-control-prev, .carousel-control-next {
     top: -353px !important;
     }
