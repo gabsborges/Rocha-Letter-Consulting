@@ -10,7 +10,8 @@
 }
 
 .sobreALetter-area img {
-    height: 70%;
+    width: 70%;
+    height: auto;
 }
 
 .sobreALetter-box {
@@ -26,7 +27,6 @@
 }
 
 .sobreALetter-box p{
-    width: 70%;
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
@@ -61,7 +61,7 @@
 
 @media (max-width: 1270px) {
     .sobreALetter-area img {
-        height: 55%;
+        width: 55%;
     }
 }
 
@@ -94,16 +94,32 @@
     }
 }
 
-@media (max-width: 640px) {
-    .sobreALetter {
-        width: 84%;
-    }
-
-}
-
-@media (max-width: 565px) {
+@media (max-width: 555px) {
     .sobreALetter {
         width: 95%;
     }
+    .carousel-indicators {
+        bottom: 111px;
+    }
+}
 
+@media (max-width: 515px) {
+    .sobreALetter-box {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 475px) {
+    .sobreALetter-box {
+        margin-top: 84px;
+    }
+}
+
+@media (max-width: 425px) {
+    .sobreALetter-box {
+        margin-top: 50px;
+    }
+    .sobreALetter-area img {
+        width: 276px;
+    }
 }
