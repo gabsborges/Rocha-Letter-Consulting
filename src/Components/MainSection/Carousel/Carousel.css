@@ -189,3 +189,9 @@
     top: -303px !important;
     }
 }
+
+@media (max-width: 397px){
+.carousel-control-prev, .carousel-control-next {
+    top: -353px !important;
+    }
+}
