@@ -183,3 +183,9 @@
         background-size: 155%;
     }
 }
+
+@media (max-width: 770px){
+.carousel-control-prev, .carousel-control-next {
+    top: -303px !important;
+    }
+}
