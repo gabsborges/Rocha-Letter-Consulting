@@ -36,6 +36,11 @@
     display: flex;
 }
 
+.navbar-toggler {
+
+    border: 1px solid #CFCDC9;
+}
+
 .header-menu li a {
     color: #CFCDC9;
     font-family: 'Lato';
@@ -81,6 +86,10 @@
     }
     .navbar-toggler {
         margin: 20px 0;
+        border: 1px solid #CFCDC9;
+    }
+    .header-contato-icon {
+        margin: 10px;
     }
 }
 

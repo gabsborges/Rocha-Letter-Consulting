@@ -74,14 +74,6 @@
     }
 }
 
-@media (max-width: 640px) {
-    .sobreALetter-area img {
-        height: 26%;
-    }
-    .sobreALetter {
-        width: 85%;
-    }
-}
 
 @media (max-width: 640px) {
     .sobreALetter {
@@ -96,21 +88,22 @@
     }
     .sobreALetter-box ul {
         font-size: 18px;
-
     }
-    
+    .sobreALetter-area img {
+        width: 310px;
+    }
 }
 
 @media (max-width: 640px) {
     .sobreALetter {
-        width: 100%;
+        width: 84%;
     }
 
 }
 
-@media (max-width: 550px) {
+@media (max-width: 565px) {
     .sobreALetter {
-        width: 100%;
+        width: 95%;
     }
 
 }
