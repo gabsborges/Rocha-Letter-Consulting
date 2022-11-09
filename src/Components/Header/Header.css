@@ -36,6 +36,11 @@
     display: flex;
 }
 
+.navbar-toggler {
+
+    border: 1px solid #CFCDC9;
+}
+
 .header-menu li a {
     color: #CFCDC9;
     font-family: 'Lato';
@@ -73,4 +78,31 @@
 .header-contato-icon img {
     width: 18px;
     margin-right: 10px;
+}
+
+@media (max-width: 732px){
+    .header {
+        padding: 20px 0 !important;
+        margin: 0;
+        flex-direction: column;
+    }
+    .navbar-brand {
+        margin: 0;
+        padding: 0;
+    }
+    .navbar-toggler {
+
+        margin: 20px 0;
+        border: 1px solid #CFCDC9;
+        background-color: #CFCDC9;
+    }
+    .header-contato-icon {
+        margin: 10px;
+    }
+}
+
+@media (max-width: 700px){
+    .mainSection {
+        height: 60vh;
+    }
 }

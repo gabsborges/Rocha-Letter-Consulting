@@ -53,9 +53,3 @@
     overflow: hidden;
 }
 
-
-@media (max-width: 1365px) {
-    .diferenciais {
-        width: 1365px;
-    }
-  }

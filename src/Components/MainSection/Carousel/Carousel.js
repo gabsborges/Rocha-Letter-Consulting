@@ -8,8 +8,8 @@ function CarouselSlider() {
         <div className='carouselSlider' style={{ display: 'block', padding: 0 }}>
             <Carousel 
             fade
-            nextIcon = { <span><img src='./next.png'/></span>}
-            prevIcon = { <span><img src='./prev.png'/></span>}
+            nextIcon = { <span className='nextPrevIcon'><img src='./next.png'/></span>}
+            prevIcon = { <span className='nextPrevIcon'><img src='./prev.png'/></span>}
             >
                 <Carousel.Item interval={5500}>
                 <div className='carouselSlider-box box'>

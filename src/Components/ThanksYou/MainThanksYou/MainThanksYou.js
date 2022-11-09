@@ -1,5 +1,5 @@
 import './MainThanksYou.css'
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function TYMainSection() {
     return (

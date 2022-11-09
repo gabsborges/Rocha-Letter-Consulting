@@ -88,3 +88,25 @@
     text-align: center;
     color: #CFCDC9;
 }
+
+@media (max-width: 975px) {
+    .footer-menu {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-menu-menu {
+        margin: 40px;
+    }
+}
+
+@media (max-width: 675px) {
+    .footer-menu2 {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 425px) {
+    .footer-menu li a {
+        margin-right: 40px;
+    }
+}

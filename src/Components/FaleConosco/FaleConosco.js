@@ -1,5 +1,7 @@
-import './FaleConosco.css'
-import { motion } from 'framer-motion'
+import React from 'react';
+import './FaleConosco.css';
+import { motion } from 'framer-motion';
+
 
 function FaleConosco() {
     return (
@@ -13,17 +15,18 @@ function FaleConosco() {
                         <input type="hidden" id="fid" name="fid" value="54484" />
                         <input type="hidden" id="formType" name="formType" value="dynamic" />
                         <div>
-                            <input className="form-control form-ll" type="text" id="llfield69862" name="llfield69862" placeholder="Digite seu nome" data-required="true" />
+                            <label htmlFor="llfield69862">Nome</label>
+                            <input type="text" id="llfield69862" name="llfield69862" placeholder="Digite seu nome" data-required="true" />
                             <div className="field-error" id="llerror69862"></div>
                         </div>
                         <div>
-
-                            <input className="form-control form-ll" type="email" id="llfield69863" name="llfield69863" placeholder="Digite seu e-mail" data-required="true" />
+                            <label htmlFor="llfield69863">E-mail</label>
+                            <input type="email" id="llfield69863" name="llfield69863" placeholder="Digite seu e-mail" data-required="true" />
                             <div className="field-error" id="llerror69863"></div>
                         </div>
                         <div>
-
-                            <input className="form-control form-ll" type="tel" id="llfield69864" name="llfield69864" placeholder="Digite DDD + Seu Número" data-required="true" />
+                            <label htmlFor="llfield69864">Celular</label>
+                            <input type="tel" id="llfield69864" name="llfield69864" placeholder="Digite DDD + Seu Número" data-required="true" />
                             <div className="field-error" id="llerror69864"></div>
                         </div>
                         <div>
@@ -36,18 +39,31 @@ function FaleConosco() {
                                 </div>
                             </div>
                         </div>
-                        <div className='faleConosco-form-area-submit'>
-                            <button className="btn" type="submit">Enviar</button>
+                        <div className="button-bar botao-verde">
+                            <button type="submit">Enviar</button>
                         </div>
-                    </form>
+                        <div className="loading-box">
+                            <img src="//paginas.rocks/content/images/spinner.gif" />
+                            <div>loading...</div>
+                        </div>
+                        <div className="error-box">
+                            <img src="//paginas.rocks/content/images/error-icon.png" />
+                            <div></div>
+                            <button type="button" className="btn" id="btn-error">Ok</button>
+                        </div>
+                        <img src="https://llimages.com/redirect/redirect.aspx?A=V&f=54484&m=666007" style={{ display: 'none' }} />
+                    </form>        
                 </div>
+                
             </div>
             <motion.img
                 initial={{ x: 800 }}
                 transition={{ duration: 0.7 }}
-                animate={{ x: 0 }}
+                animate={{ x: 0 }} 
                 src='./1 1.png' />
+                 
         </div>
+        
     )
 }
 

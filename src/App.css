@@ -8,10 +8,7 @@
   scroll-behavior: smooth;
 }
 
-.main-section {
-  background-image: url('../public/background-1.png');
-  background-position: 0 0;
-}
+
 
 .confia-section {
   background: #252A36;
@@ -22,14 +19,3 @@
 }
 
 
-@media (max-width: 1365px) {
-  .main-section {
-    width: 1365px;
-  }
-  .confia-section {
-    width: 1365px;
-  }
-  .footer-section {
-    width: 1365px;
-  }
-}

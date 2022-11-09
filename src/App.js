@@ -1,19 +1,23 @@
 import './App.css';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { createBrowserRouter } from 'react-router-dom';
 import Home from './pages/Home';
 import ThanksYouPage from './pages/ThankYouPage';
+import NonPage from './pages/NonPage';
 
-function App() {
-  return (
-    <div className="App">
-    <BrowserRouter>
-      <Routes>
-          <Route index element={<Home/>} />
-          <Route path="/obrigado" element={<ThanksYouPage/>} />
-      </Routes>
-    </BrowserRouter>
-    </div>
-  );
-}
+const router = createBrowserRouter([
+  {
+    path: '/',
+    index: true,
+    element: <Home />
+  },
+  {
+    path: '/obrigado',
+    element: <ThanksYouPage />
+  },
+  {
+    path: '*',
+    element: <NonPage />
+  }
+])
 
-export default App;
+export { router }
