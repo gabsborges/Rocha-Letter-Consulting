@@ -121,13 +121,11 @@
     }
 }
 
+
 @media (max-width: 770px) {
     .card-inner {
         min-width: 266px;
     }
-}
-
-@media (max-width: 770px) {
     .box {
         background-size: 130%;
     }
@@ -181,17 +179,5 @@
     }
     .box1 {
         background-size: 185%;
-    }
-}
-
-@media (max-width: 770px){
-.carousel-control-prev, .carousel-control-next {
-    top: -303px !important;
-    }
-}
-
-@media (max-width: 409px){
-.carousel-control-prev, .carousel-control-next {
-    top: -353px !important;
     }
 }

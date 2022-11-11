@@ -91,6 +91,12 @@
     }
 }
 
+@media (max-width: 1180px) {
+    .sobreALetter {
+        width: 100%;
+    }
+}
+
 @media (max-width: 700px) {
     .sobreALetter-area {
         margin-top: 145px;
@@ -99,15 +105,11 @@
 
 
 @media (max-width: 640px) {
-    .sobreALetter {
-        width: 85%;
-    }
     .sobreALetter-box h1{
         font-size: 44px;
     }
     .sobreALetter-box p{
         font-size: 16px;
-        width: 80%;
     }
     .sobreALetter-infos ul {
         font-size: 18px;
@@ -119,7 +121,7 @@
 
 @media (max-width: 555px) {
     .sobreALetter {
-        width: 95%;
+        width: 100%;
     }
     .carousel-indicators {
         bottom: 111px;

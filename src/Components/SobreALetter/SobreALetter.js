@@ -13,7 +13,7 @@ function SobreALetter() {
                         colocando à disposição destes à elaboração e entrega de soluções Taylor-made. Assim, conseguimos alocar os melhores recursos para cuidar das demandas específicas dos clientes, trabalhando sempre que necessário em grupos multidisciplinares potencializando nossa capacidade de entendimento do seu negócio e nos tornando um parceiro relevante. </p>
                 </div>
                 <div className='sobreALetter-infos'>
-                    <img src='/rino-martelo1.png' />
+                    <img src='/rino-martelo1.png' alt='Imagem da RinoBox'/>
                     <ul>
                         <li><strong>+R$ 8,4 bilhões</strong><br />de créditos tributários recuperados</li>
                         <li><strong>+ 5 mil</strong><br />clientes atendidos</li>
