@@ -134,6 +134,13 @@
     }
 }
 
+@media (max-width: 489px) {
+    .sobreALetter-box h1{
+        font-size: 38px;
+        line-height: 46px;
+    }
+}
+
 @media (max-width: 475px) {
     .sobreALetter-box {
         margin-top: 84px;
@@ -143,6 +150,9 @@
 @media (max-width: 425px) {
     .sobreALetter-box {
         margin-top: 50px;
+    }
+    .sobreALetter-box h1{
+        font-size: 32px;
     }
     .sobreALetter-area img {
         width: 276px;
