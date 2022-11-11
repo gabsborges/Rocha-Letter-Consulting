@@ -14,14 +14,14 @@ function Footer() {
                     </ul>
                 </div>
                 <div className="footer-icons">
-                    <a href="" target="blank" alt="Linkedin"><i className="fa-brands fa-linkedin"></i></a>
-                    <a href="" target="blank" alt="Instagram"><i className="fa-brands fa-instagram"></i></a>
-                    <a href="" target="blank" alt="Facebook"><i className="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://www.linkedin.com/company/rocha-letter-consulting/" target="blank" alt="Linkedin"><i className="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/rocha.letterconsulting/" target="blank" alt="Instagram"><i className="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/people/Rocha-Letter-Consulting/100084822468759/" target="blank" alt="Facebook"><i className="fa-brands fa-square-facebook"></i></a>
                 </div>
             </div>
             <div className='footer-menu2'>
                 <div className='footer-dados-contatos'>
-                        <a href="https://api.whatsapp.com/send?phone=5545988221644" alt="Whatsapp"><i className="fa-solid fa-phone"></i>+55 (45) 98822.1644</a>
+                        <a href="https://api.whatsapp.com/send?phone=5545991445454" alt="Whatsapp"><i className="fa-solid fa-phone"></i>+55 (45) 99144.5454</a>
                         <p><i className="fa-solid fa-envelope"></i>celiton.junior@letterconsulting.com.br</p>
                     </div>
                     <img src='./alloy.png' alt="Letter Consulting" title="Letter Consulting"/>

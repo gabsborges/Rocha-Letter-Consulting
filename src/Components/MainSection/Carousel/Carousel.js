@@ -20,8 +20,8 @@ function CarouselSlider() {
                         <p>Trabalhamos para assegurar a melhora de performance e a mitigação de riscos.</p>
                     </div>
                     <div className='carouselSlider-botoes'>
-                        <a href='#' className='botao'>Saber mais</a>
-                        <a href='https://api.whatsapp.com/send?phone=5545988221644' className='falarWhatts'>Falar pelo WhatsApp</a>
+                        <a href='#sobre' className='botao'>Saber mais</a>
+                        <a href='https://api.whatsapp.com/send?phone=5545991445454' className='falarWhatts'>Falar pelo WhatsApp</a>
                     </div>
                 </div>
                 </Carousel.Item>
@@ -34,8 +34,8 @@ function CarouselSlider() {
                             <p>Soluções inteligentes para apoiar a sua empresa na viabilização de de oportunidades na área fiscal.</p>
                         </div>
                         <div className='carouselSlider-botoes'>
-                            <a href='#' className='botao'>Saber mais</a>
-                            <a href='https://api.whatsapp.com/send?phone=5545988221644' className='falarWhatts'>Falar pelo WhatsApp</a>
+                            <a href='#sobre' className='botao'>Saber mais</a>
+                            <a href='https://api.whatsapp.com/send?phone=5545991445454' className='falarWhatts'>Falar pelo WhatsApp</a>
                         </div>
                     </div>
                 </Carousel.Item>

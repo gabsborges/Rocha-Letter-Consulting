@@ -66,6 +66,13 @@ function ServicosCards() {
                 </div>
                 <a href='#contato'>Saiba mais<img src='./saibamais.png'/></a>
             </div>
+            <div className='servicosCards-cards'>
+                <div className='servicosCards-cards-itens'>
+                    <img src='./icone-prdi.png'/>
+                    <h2>PRDI</h2>
+                </div>
+                <a href='#contato'>Saiba mais<img src='./saibamais.png'/></a>
+            </div>
         </div>
     )
 }

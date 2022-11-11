@@ -25,7 +25,7 @@ function Header() {
               <Nav.Link href="#servicos">Serviços</Nav.Link>
             </Nav>
           </Navbar.Collapse>
-          <Nav.Link className='header-contato-icon' href='https://api.whatsapp.com/send?phone=5545988221644'><img src='/contato.png' />Contato</Nav.Link>
+          <Nav.Link className='header-contato-icon' href='https://api.whatsapp.com/send?phone=5545991445454'><img src='/contato.png' />Contato</Nav.Link>
         </Container>
       </Navbar>
     )
